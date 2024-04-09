@@ -30,6 +30,8 @@ public class RestController {
         model.addAttribute("employee", new entitywork());
         return "add";
     }
+    
+    
 
     @PostMapping("/add")
     public String addEmployee(@ModelAttribute entitywork employee) {
